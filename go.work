@@ -1,0 +1,9 @@
+go 1.24.0
+
+use (
+	.
+	./20-Goroutines
+	./25-Packages
+	./26-Inputs
+	./27-Concurrency
+)

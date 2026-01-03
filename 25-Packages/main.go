@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"myproject/utils" // Importing the local package
+	"packages/utils" // Importing the local package
 )
 
 func main() {
