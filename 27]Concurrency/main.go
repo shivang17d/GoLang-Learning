@@ -9,6 +9,7 @@ import (
 func main() {
 	// 1. Leverage all available CPU cores for true parallelism
 	numCores := runtime.NumCPU()
+	fmt.Printf("Number of CPU cores: %d\n", numCores)
 	runtime.GOMAXPROCS(numCores)
 
 	var wg sync.WaitGroup
